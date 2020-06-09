@@ -1,0 +1,43 @@
+#header{
+    background:linear-gradient(to left, rgb(131, 131, 131) 0%,
+                                    rgb(101, 122, 141) 50%,
+                                        
+                                        rgb(255, 255, 255) 100%);
+}
+
+#banner {
+    width:100%;
+    height: 100vh;
+    background-position: center center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+    animation: slideBg 20s infinite 0s;
+    
+    background-image: url("images/6363cf25bb0d4fe2a0f2d8bbb9d823dd.jpg");
+    
+
+}
+
+@keyframes slideBg {
+    0%{
+        background-image: url("images/6363cf25bb0d4fe2a0f2d8bbb9d823dd.jpg");
+    }
+    33%{
+        background-image: url("images/d55bc4e4be914271a21e587c9daf6d6c.jpg");
+    }
+    66%{
+        background-image: url("images/db23d638197f476ebe5a653237ae9007.jpg");
+    }
+    
+
+
+}
+
+#navlink:hover{
+    color:#80AFF5;
+}
+#header nav > ul > li a:not(.button):hover {
+    color:#80AFF5;
+}
+
