@@ -41,3 +41,7 @@
     color:#80AFF5;
 }
 
+#button:active{
+    color: rgb(165, 160, 160) ;
+    border-bottom-color: transparent;
+}
