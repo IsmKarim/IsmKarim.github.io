@@ -14,36 +14,36 @@
 
 			<!-- Header -->
 				<header id="header" class="alt">
-					<h1><a href="index.html"><img src="assets/images/logo.png"/></a> <b>CT BAT</b></h1>
+					<h1><a href="index.html"><img src="assets/images/logo.png"/><b> CT BAT</b></a> </h1>
 					<nav id="nav">
 						<ul>
 							
 							<li>
 								<a href="#" class="icon solid fa-angle-down " id="navlink">Nos Services</a>
 								<ul>
-									<li><a href="generic.html">Energie Rénouvelable</a></li>
-									<li><a href="contact.html">Rénovation Exterieur</a></li>
+									<li><a href="energie.html">Energie Rénouvelable</a></li>
+									<li><a href="travaux-exterieurs.html">Rénovation Exterieur</a></li>
 									
 									<li>
-										<a href="#">Rénovation Interieur</a>
+										<a href="travaux-interieur.html">Rénovation Interieur</a>
 										<ul>
-											<li><a href="#">Peinture</a></li>
-											<li><a href="#">Pose De Carralage</a></li>
-											<li><a href="#">Autre Revêtements</a></li>
+											<li><a href="travaux-interieur.html#Peinture">Peinture</a></li>
+											<li><a href="travaux-interieur.html#carrelage">Pose De Carrelage</a></li>
+											<li><a href="travaux-interieur.html#autres">Autre Revêtements</a></li>
 										
 										</ul>
 									</li>
 								</ul>
 							</li>
-							<li><a href="#" class="icon solid fa-angle-down " id="navlink">Votre Projet</a>
+							<li><a href="service.html" class="icon solid fa-angle-down " id="navlink">Votre Projet</a>
 								<ul>
-									<li><a href="generic.html">Prise en main</a></li>
-									<li><a href="contact.html">Rachat de crédit</a></li>
+									<li><a href="service.html#pm">Prise en main</a></li>
+									<li><a href="#service.html#credit">Rachat de crédit</a></li>
 								</ul></li>
 
-							<li><a href="index.html" id="navlink">Nos Réalisation</a></li>
+							<li><a href="photos.html" id="navlink">Nos Réalisation</a></li>
 
-							<li><a href="#" class="button" id="navlink">Nous Contacter</a></li>
+							<li><a href="contact.html" class="button" id="navlink">Nous Contacter</a></li>
 						</ul>
 					</nav>
 				</header>
@@ -51,8 +51,12 @@
 			<!-- Banner -->
 				<section id="banner">
 					
-					<h2 style="color:rgb(61, 61, 61)">CT BAT</h2>
-					<p style="color:rgb(61, 61, 61)"><b>Rénovation habitat à Toulouse</b></p>
+					<h2 style="color:rgb(61, 61, 61);
+							   text-shadow: 1px 1px 1px rgb(103, 158, 231);
+							   font-size: 4em;">CT BAT</h2>
+					<p style="color:rgb(61, 61, 61);
+							  text-shadow: 1px 1px 1px rgb(103, 158, 231);
+							  font-size: 2.75em;"><b>Rénovation habitat à Toulouse</b></p>
 
 				</section>
 
@@ -63,7 +67,7 @@
 						<header class="major">
 							<h2>Nous s'occuperons de votre projet de A à Z
 							<br />
-							Vous n'avez qu'à nous contacter</h2>
+							Vous n'avez qu'à <a style="text-decoration-line: none" href="contact.html">nous contacter</a></h2>
 							<p>Blandit varius ut praesent nascetur eu penatibus nisi risus faucibus nunc ornare<br />
 							adipiscing nunc adipiscing. Condimentum turpis massa.</p>
 						</header>
@@ -106,20 +110,24 @@
 					</section>
 
 					<section class="box special">
-						<h2 style="font-weight: bolder;"></h2>
+						<h2 style="font-weight: bolder;">Nos Réalisation</h2>
 					<span class="image featured"><img id ="avantapres" src ="assets/images/Avant.png" alt="" /></span>
-						<button class ="button" onclick="document.getElementById('avantapres').src='assets/images/Avant.png'">Avant</button>
-						<button class ="button" onclick="document.getElementById('avantapres').src='assets/images/Apres.png'">Aprés</button>
+						<button class ="button" onclick="elem=document.getElementById('avantapres');
+														 elem.src='assets/images/Avant.png'
+														 elem.style.animation=('pulse 1s');"
+														>Avant</button>
+						<button class ="button" onclick="document.getElementById('avantapres').src='assets/images/Apres.png';
+														 $('.avantapres').css('filter','blur(6px)');">Aprés</button>
 					</section>
 					<div class="row">
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><img src="images/Credit.jpg" alt="" /></span>
+								<span class="image featured"><img src="" alt="" /></span>
 								<h3>Rachat de Credit</h3>
 								
 								<ul class="actions special">
-									<li><a href="#" class="button alt">Savoir Plus</a></li>
+									<li><a href="services.html#credit" class="button alt">Savoir Plus</a></li>
 								</ul>
 							</section>
 
@@ -127,11 +135,11 @@
 						<div class="col-6 col-12-narrower">
 
 							<section class="box special">
-								<span class="image featured"><img src="images/Credit.jpg" alt="" /></span>
+								<span class="image featured"><img src="" alt="" /></span>
 								<h3>Votre Projet Prise En Main</h3>
 								
 								<ul class="actions special">
-									<li><a href="#" class="button alt">Savoir Plus</a></li>
+									<li><a href="services.html#pm" class="button alt">Savoir Plus</a></li>
 								</ul>
 							</section>
 
