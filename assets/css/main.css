@@ -105,11 +105,11 @@
 	}
 
 	body {
-		background: #f5f5f5;
+		background: #e7e7e7;
 	}
 
 	body, input, select, textarea {
-		color: #777;
+		color: #646464;
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
@@ -2841,7 +2841,7 @@
 			input[type="reset"].alt.icon:before,
 			input[type="button"].alt.icon:before,
 			.button.alt.icon:before {
-				color: #999;
+				color: rgb(214, 214, 214);
 			}
 
 		input[type="submit"].primary,
@@ -3000,7 +3000,7 @@
 					}
 
 						#header nav > ul > li a:not(.button).icon:before {
-							color: #999;
+							color: rgb(185, 185, 185);
 							margin-right: 0.5em;
 						}
 

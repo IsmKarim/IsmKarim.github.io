@@ -1,8 +1,8 @@
 #header{
     background:linear-gradient(to left, rgb(131, 131, 131) 0%,
-                                    rgb(101, 122, 141) 50%,
+                                    rgb(125, 158, 187) 50%,
                                         
-                                        rgb(255, 255, 255) 100%);
+                                        rgb(238, 238, 238) 100%);
 }
 
 #banner {
@@ -12,7 +12,7 @@
     background-size:cover;
     background-repeat:no-repeat;
     
-    animation: slideBg 20s infinite 0s;
+    animation: slideBg 8s infinite 0s;
     
     background-image: url("images/6363cf25bb0d4fe2a0f2d8bbb9d823dd.jpg");
     
@@ -45,3 +45,9 @@
     color: rgb(165, 160, 160) ;
     border-bottom-color: transparent;
 }
+
+.box{
+    background-color: rgba(255, 255, 255, 0.651);
+    opacity: 0.8;
+}
+
